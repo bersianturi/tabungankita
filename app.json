@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "TabunganKita",
+    "slug": "TabunganKita",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-square.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e1e1e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-square.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hatelove.TabunganKita"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f50a41d-c3a7-43b1-8c09-ff6f587ed8f2"
+      }
+    }
+  }
+}
